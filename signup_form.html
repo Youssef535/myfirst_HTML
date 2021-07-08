@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="descreption" descreption="This is a signup form"/>
+        <meta name="signup form" content="v1.0"/>
+        <meta name="viewport" content="width=dvise-width,initial-scale=1"/>
+        <title> Employee Signup Form</title>
+    </head>
+    <style>
+        body {
+            background-color: rgb(147, 208, 216);
+        }
+    </style>
+    <body>
+        <center>
+            <h1 style="text-align:center;">Signup Form</h1>
+            <br><br>
+            <form action="my_website.php" method="GET">
+                <label for="first name">First Name:</label>
+                <input type="text" name="First name" id="first name" placeholder="First name" required>
+                <br><br>
+                <label for="last name">Last Name:</label>
+                <input type="text" name="Last name" id="last name" placeholder="Last name" required>
+                <br><br>
+                <label for="email">Adress Email:</label>
+                <input type="email" name="Email" id="email" placeholder="Email" reqiured>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="Password" id="password" placeholder="Password" required>
+                <br><br>
+                <label for="repeat password">Repeat password:</label>
+                <input type="password" name="Repeat Password" id="repeat password" required>
+                <br><br>
+                <div>
+                <p style="text-align:center;">Chose Your Subscreption</p>
+                <label for="type subscreption"></label>
+                <select name="sub" id="type subscreption">
+                    <option value="1">Elite Subscreption</option>
+                    <option value="2">Vip Subscreption</option>
+                    <option value="3">Vip+ Subscreption</option>
+                    <option value="4">Normal Subscreption</option>
+                </select>
+                <p style="text-align:center;"><b>Join Our Mailing List:</b></p>
+                <input type="radio" name="operating system" value="Yes" id="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="operating system" value="No" id="no">
+                <label for="no">No</label>
+                <br>
+                <p style="text-align:center;"><b>What Are Your Interstes :</b></p>
+                <input type="checkbox" name="operating system" value="vd games" id="videos games">
+                <label for="videos games">Video Games </label><br>
+                <input type="checkbox" name="operating system" value="Books" id="books">
+                <label for="books"> Romantic Books</label><br>
+                <input type="checkbox" name="operating system" value="Sport" id="sport">
+                <label for="sport">Sports</label><br>
+                <input type="checkbox" name="operating system" value="Shoping" id="shoping">
+                <label for="shoping">Shoping</label><br>
+                <input type="checkbox" name="operating system" value="Makeup" id="makeup">
+                <label for="makeup">Makeup</label><br><br>
+                <textarea name="text" rows="5" cols="50" placeholder="Tell Uss More About Yourself"></textarea><br><br>
+                <input type="submit" value="Signup Now">
+                </div>   
+            </form>
+        </center>
+    </body>
+</html>
