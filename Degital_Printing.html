@@ -1,0 +1,68 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="descreption" content="Project Submission form">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="Degital Printing" content="width=devise-width,initial-scale=1">
+        <title>Print Project Submission Form</title>
+    </head>
+    <style>
+        body {
+            background-color:rgb(138, 228, 198)
+        }
+    </style>
+    <body>
+        <center>
+            <h1>Print Project Submission Form</h1><br><br>
+            <p style="color:rgb(228, 30, 30)"><b>This Form Can Be Used Only By Our Custemers To Organize And Submit Information For Print Projects  </b></p>
+            <p style="color:rgb(228,30,30)"><b>This Form Will Not Purchase Order</b></p>
+            <br><br>
+            <p><b>Once completed, this form can Emailed-to:</b></p>
+            <a href="https://mail.google.com/" target="_blank" title="Go to https://mail.google.com/ ">employee38@gmail.com</a>
+            <p>Prior to submitting this form, customrs should Submit their image file to our website via our two availible method </p>
+            <div>
+                <label for="File"></label>
+                <input type="file" name="image upload" id="File">
+                <a href="https://mail.google.com/" target="_blank" title="Go to https://mail.google.com/">Customershelp@gmail.com</a>
+                <br>
+                <p>Or</p> <br>
+                <p>Media storage devise Mail-in: clipso USA,attn:print house,66N New York</p>
+            </div>
+            <hr>
+            <h3 style="text-align:left;">1) Project Details : </h3>
+            <div>
+                <form action="my_file.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" reqiured name="Name" id="name" placeholder=" Enter Valid Name">
+                    <br><br>
+                    <label for="surname">Surname:</label>
+                    <input type="text" reqiured name="Surname" id="surname" placeholder=" Enter Valid Surname">
+                    <br><br>
+                    <label for="project">Project Name : </label>
+                    <input type="text" required name="Degital Project" id="project" placeholder="Project Name">
+                    <br><br>
+                    <label for="submission">Submission Date :</label>
+                    <input type="text" required name="Degital Project" id="submission" placeholder="Submission Date">
+                    <br><br>
+                    <label for="ship method">Fedex Shiping Method:</label>
+                    <select name="shiping method" id="ship method" >
+                        <option value="1">Normal Shipming</option>
+                        <option value="2">Vip Shipming</option>
+                        <option value="3">Vip+ Shipming</option>
+                    </select>
+                    <br><br><br>
+                    <textarea name="text" rows="4" cols="40" placeholder="Comment"></textarea>
+                    <br><br>
+                    <input type="button" value="next">
+                    <input type="button" value="Submit">
+                    <input type="button" value="Reset">
+                </form>
+            </div>
+            <hr>
+            <blockquote  cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally</blockquote>
+
+        </center>
+    </body>
+</html>
