@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-compatible" content="IE-edge"/>
+        <meta name="descreption" content="Ginome Project Submission Form"/>
+        <meta name="Youssef Soltani" content="v1.0">
+        <meta name="viewport" content="width=devise-width,initial-scale=1"/>
+        <title> This is a genome project submission</title>
+    </head>
+    <body background="1.jpg">
+        <h1 align="center">Genomne project submission form</h1>
+        <br><br>
+        <p><strong>This form are designed to accomodate large-scale genomic sequence data submission as well as submission of project information to be listed at NCBI project page </strong></p>
+        <br>
+        <p><strong>Complete genome( or chromosome )submission (<u>unstrection</u>)should countain annotation.We would like to encourage sqeuncing centers to submit the data at the early stages of the project to make it availible to the community  </strong></p>
+        <center>
+            <div>
+                <form action="genome_project.php" method="POST" target="_blank">
+                    <label for="organisme name">Organisme name :</label>
+                   &nbsp; <input type="text" required name="First name" placeholder="Organisme Name" id="organisme name">
+                    <br><br>
+                    <label for="strain">Strain :</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" required name="strain" placeholder="Plz enter a valid Strain" id="strain">
+                    <br><br>
+                    <label for="Submitting">Submitting organization :</label>
+                    <select name="organization" id="Submitting">
+                        <option value="1">Other enter in the fild bellow </option>
+                    </select>
+                    <br><br>
+                    <label for="Submitting">Submitting Organization (if other):</label>
+                    <input type="text" required name="org" id="Submitting">
+                    <br><br>
+                    <label for="project type">Project Type :</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="type" id="project type">
+                        <option value="1">Genome </option>
+                        <option value="2">Chromosome</option>
+                        <option value="3">Science</option>
+                        <option value="4">Genetic</option>
+                    </select>
+                    <br><br>
+                    <label for="person name">Contact Person Name:</label>
+                    <select name="contact person name" id="person name">
+                        <option value="1">Confidential Unitel Published </option>
+                        <option value="2">Project Lesting Only</option>
+                        <option value="3">Availible For Blast Only </option>
+                        <option value="4">Release Imediatly</option>
+                    </select>
+                    <br><br>
+                    <label for="email">Contact Email :</label>
+                    <input type="email" required name="E-mail" placeholder="Contact E-mail" id="email">
+                    <br><br>
+                    <label for="number">Number Of Accession:</label>
+                    <input type="number" required name="num" id="number" min="0" max="50">
+                    <br><br>
+                    <p style="color: rgb(233, 1, 1);"><b>accession numbers will isued after aploading the data to NCBI ftp account</b> </p>
+                    <br><br>
+                    <p><b>Do You Have an ftp Account:</b></p> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="ftp">Yes</label>
+                    <input type="radio" name="operating system" value="Yes" id="ftp">
+                    <label for="no">No</label>
+                    <input type="radio" name="op" value="No" id="no">
+                    <br><br>
+                    <textarea name="text" rows="4" cols="40" placeholder="Comment"></textarea>
+                    <p style="color: blue;">Please provide additional information aboute the project</p>
+                    
+                    <p>Page#1of 2</p>
+                    <input type="button" value="next">
+                    <input type="button" value="Submit">
+                    <input type="button" value="Reset">
+                
+
+
+
+            </div>
+        </center>
+
+    </body>
+</html>
